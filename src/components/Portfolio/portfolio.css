@@ -1,0 +1,10 @@
+.title{
+    border: solid black 1px;
+    height: 140px;
+    width: 100%;
+    background-color: #FC5858;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,192 @@
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+.app{
+  font-family: impact;
+}
+
+
+#header{
+  border: solid black 1px;
+  color: #333333;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 80px;
+  padding-right: 80px;
+  align-items: center;
+  box-sizing: border-box;
+  /* display: fixed; */
+}
+
+#header-left{
+  border: solid black 1px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
+#header-right{
+  border: solid black 1px;
+  height: 100%;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#main{
+  border: solid black 1px;
+  background-color: #FC5858;
+  color: white;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-message{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-message button{
+  background-color: white;
+  color: black;
+}
+
+#skills{
+  border: solid black 1px;
+  margin: auto;
+  width: 900px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#skills-title{
+  border: solid black 1px;
+
+  width: 300px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#skills-body{
+  border: solid black 1px;
+
+  width: 80%;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+
+  /* margin: auto; */
+}
+
+#skills-left{
+  border: solid black 1px;
+  background-color: #37C5AB;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+#skills-left p{
+  border: solid black 1px;
+  margin-top: 30px;
+  height: 20px;
+}
+
+#front-tech{
+  border: solid black 1px;
+  height: 20px;
+  width: 20px;
+}
+
+
+#skills-right{
+  border: solid black 1px;
+  background-color: #0070BB;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#skills-right p{
+  border: solid black 1px;
+  margin-top: 30px;
+  height: 20px;
+}
+
+#back-tech{
+  border: solid black 1px;
+  height: 20px;
+  width: 20px;
+}
+
+#portfolio-button{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+/* #technologies img{
+  border: solid black 1px;
+  height: 100px;
+  width: 100px;
+} */
+
+
+/* 
+.img1{
+  background-image:url('./images/auth0.png')
+}
+.img2{
+  background-image:url('./images/css.png')
+}
+.img3{
+  background-image:url('./images/express.png')
+}
+.img4{
+  background-image:url('./images/git.png')
+}
+.img5{
+  background-image:url('./images/html.JPG')
+}
+.img6{
+  background-image:url('./images/js.jpg')
+}
+.img7{
+  background-image:url('./images/massive.jpg')
+}
+.img8{
+  background-image:url('./images/node.png')
+}
+.img9{
+  background-image:url('./images/postgres.png')
+}
+.img10{
+  background-image:url('./images/postman.png')
+}
+.img11{
+  background-image:url('./images/react.jpg')
+}
+.img12{
+  background-image:url('./images/redux.png')
+} */
+
+
+
