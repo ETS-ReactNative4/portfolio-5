@@ -11,13 +11,13 @@ export default function Header(props){
         <div id="header">
 
             <div id="header-left">
-                <Link to="/"><p>Russell Memory</p></Link>
+                <Link to="/"><button>RUSSELL MEMORY</button></Link>
             </div>
 
             <div id="header-right">
-            <div id="header-home"><Link to="/">Home</Link></div>
-            <div id="header-portfolio"><Link to="/portfolio">Portfolio</Link></div>
-            <div id="header-about"><Link to="/about">About Me</Link></div>
+            <div id="header-home"><Link to="/"><button>Home</button></Link></div>
+            <div id="header-portfolio"><Link to="/portfolio"><button>Portfolio</button></Link></div>
+            <div id="header-about"><Link to="/about"><button>About Me</button></Link></div>
             </div>
 
         </div>

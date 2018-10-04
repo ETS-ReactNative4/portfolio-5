@@ -3,37 +3,60 @@
 
 .app{
   font-family: impact;
-
 }
 
-
+#home{
+  font-family: "Open Sans",Arial,sans-serif;
+}
 
 #main{
-  border: solid black 1px;
+  /* border: solid black 1px; */
   background-color: #FC5858;
   color: white;
-  height: 380px;
+  height: 370px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Open Sans",Arial,sans-serif;
 }
 
 #main-message{
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 60px;
 }
 
 #main-message button{
   background-color: white;
   color: black;
+  height: 55px;
+  width: 200px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 40px;
+  outline: none;
+  transition: background-color .3s;
 }
 
+#main-message button:hover{
+  background-color: #37C5AB;
+  color: white;
+  height: 55px;
+  width: 200px;
+  border-radius: 12px;
+  font-size: 20px;
+  margin-top: 40px;
+  border: none;
+}
+
+
+
 #skills{
-  border: solid black 1px;
+  /* border: solid black 1px; */
   margin: auto;
-  width: 900px;
+  width: 1200px;
   height: 700px;
   display: flex;
   flex-direction: column;
@@ -42,20 +65,23 @@
 }
 
 #skills-title{
-  border: solid black 1px;
+  /* border: solid black 1px; */
   margin-bottom: 50px;
   width: 300px;
   height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: #333333;
 }
 
 #skills-body{
-  border: solid black 1px;
+  /* border: solid black 1px; */
 
-  width: 80%;
-  height: 550px;
+  width: 85%;
+  height: 500px;
   display: flex;
   justify-content: space-between;
 
@@ -63,109 +89,228 @@
 }
 
 #skills-left{
-  border: solid black 1px;
+  padding-top: 30px;
+  /* border: solid black 1px; */
   background-color: #37C5AB;
   width: 40%;
   height: 100%;
   display: flex;
   /* justify-content: center; */
-  flex-direction: column;
   border-radius: 5px;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  color: white;
+  /* font-size: 13px; */
+}
+
+#skills-left-pic{
+  height: 110px;
+}
+
+#skills-right-pic{
+  height: 110px;
 }
 
 #skills-left p{
   border: solid black 1px;
   margin-top: 30px;
   height: 20px;
+  font-size: 25px;
 }
 
-#front-tech{
+#skills-left #front-tech{
   border: solid black 1px;
-  height: 20px;
-  width: 20px;
+  height: 90px;
+  width: 60%;
+  margin-top: 25px;
+
+}
+
+#front{
+  max-height: 150px;
+  max-width: 150px;
+  height: auto;
+  width: auto;
+}
+
+#back{
+  max-height: 150px;
+  max-width: 150px;
+  height: auto;
+  width: auto;
 }
 
 
 #skills-right{
-  border: solid black 1px;
+  padding-top: 30px;
+  /* border: solid black 1px; */
   background-color: #0070BB;
   width: 40%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   border-radius: 5px;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  color: white;
+  /* font-size: 13px; */
 }
 
 #skills-right p{
   border: solid black 1px;
   margin-top: 30px;
   height: 20px;
+  font-size: 25px;
+}
+
+#skills-right #back-tech{
+  border: solid black 1px;
+  height: 90px;
+  width: 60%;
 }
 
 #back-tech{
+  margin-top: 25px;
   border: solid black 1px;
   height: 20px;
   width: 20px;
 }
 
-#portfolio-button{
+≈
+
+#my-work{
     background-color: green;
     height: 50px;
     width: 80px;
 }
 
+
+#front-end-pics{
+  border: solid black 1px;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#back-end-pics{
+  border: solid black 1px;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#front-end-pics img{
+  height: auto;
+  width: auto;
+  max-height: 40px;
+  max-width: 40px;
+}
+#back-end-pics img{
+  height: auto;
+  width: auto;
+  max-height: 40px;
+  max-width: 40px;
+}
+
+
 #portfolio{
-  border: solid black 1px;
-  height: 300px;
+  background-color: #333333;
+  /* background-color: white; */
+  height: 400px;
   width: 100%;
-}
-
-
-
-/* #technologies img{
+  margin: auto;
   border: solid black 1px;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+#portfolio-container{
+  border: solid green 1px;
+  background-color: #333333;
+  color: white;
+  margin: auto;
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#portfolio #portfolio-left{
+  /* background-color: #333333; */
+  /* background-color: white; */
+  height: 100%;
+  width: 50%;
+  border: solid green 1px;
+}
+
+#portfolio-right{
+  /* background-color: #333333; */
+  /* background-color: white; */
+  height: 100%;
+  width: 50%;
+  border: solid red 1px;
+}
+
+#portfolio-title{
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+#portfolio-body p{
+  line-height: 1.7em;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#portfolio-button button{
+  background-color: #FC5858;
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 180px;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  margin-top: 30px;
+  transition: background-color .2s;
+  
+}
+
+#portfolio-button button:hover{
+  background-color: #0070BB;
+  
+  color: white;
+  
+  
+}
+
+
+
+footer{
+  background-color: white;
   height: 100px;
-  width: 100px;
-} */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+#footer-container{
+  
+  border: solid black 1px;
+  height: 90px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-/* 
-.img1{
-  background-image:url('./images/auth0.png')
+#footer-container button{
+  border: solid black 2px;
+  height: 60px;
+  width: 130px;
 }
-.img2{
-  background-image:url('./images/css.png')
-}
-.img3{
-  background-image:url('./images/express.png')
-}
-.img4{
-  background-image:url('./images/git.png')
-}
-.img5{
-  background-image:url('./images/html.JPG')
-}
-.img6{
-  background-image:url('./images/js.jpg')
-}
-.img7{
-  background-image:url('./images/massive.jpg')
-}
-.img8{
-  background-image:url('./images/node.png')
-}
-.img9{
-  background-image:url('./images/postgres.png')
-}
-.img10{
-  background-image:url('./images/postman.png')
-}
-.img11{
-  background-image:url('./images/react.jpg')
-}
-.img12{
-  background-image:url('./images/redux.png')
-} */
-
-
-
