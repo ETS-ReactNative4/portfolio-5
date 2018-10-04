@@ -3,45 +3,16 @@
 
 .app{
   font-family: impact;
-}
-
-
-#header{
-  border: solid black 1px;
-  color: #333333;
-  height: 80px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding-left: 80px;
-  padding-right: 80px;
-  align-items: center;
-  box-sizing: border-box;
-  /* display: fixed; */
-}
-
-#header-left{
-  border: solid black 1px;
-  height: 100%;
-  display: flex;
-  align-items: center;
 
 }
 
-#header-right{
-  border: solid black 1px;
-  height: 100%;
-  width: 250px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+
 
 #main{
   border: solid black 1px;
   background-color: #FC5858;
   color: white;
-  height: 300px;
+  height: 380px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -72,7 +43,7 @@
 
 #skills-title{
   border: solid black 1px;
-
+  margin-bottom: 50px;
   width: 300px;
   height: 70px;
   display: flex;
@@ -84,7 +55,7 @@
   border: solid black 1px;
 
   width: 80%;
-  height: 500px;
+  height: 550px;
   display: flex;
   justify-content: space-between;
 
@@ -99,6 +70,7 @@
   display: flex;
   /* justify-content: center; */
   flex-direction: column;
+  border-radius: 5px;
 }
 
 #skills-left p{
@@ -121,6 +93,7 @@
   height: 100%;
   display: flex;
   justify-content: center;
+  border-radius: 5px;
 }
 
 #skills-right p{
@@ -136,9 +109,15 @@
 }
 
 #portfolio-button{
-    background-color: black;
-    height: 100px;
-    width: 100px;
+    background-color: green;
+    height: 50px;
+    width: 80px;
+}
+
+#portfolio{
+  border: solid black 1px;
+  height: 300px;
+  width: 100%;
 }
 
 

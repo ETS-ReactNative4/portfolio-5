@@ -5,7 +5,9 @@ import './home.css'
 export default function Home(props){
     return(
         <div>
-             <div id="main">
+
+          
+        <div id="main">
           <div id="main-message">
             <h1>Hi, I'm Russell Memory</h1>
             <h4>I'm a full-stack web developer</h4>
@@ -37,6 +39,8 @@ export default function Home(props){
             {/* <img src="./images/git.png"/> */}
           </div>
 
+        </div>
+
           <div id="portfolio">
             {/* <img src="./images/git.png"/> */}
           </div>
@@ -44,7 +48,6 @@ export default function Home(props){
 
 
 
-        </div>
         </div>
     )
 }

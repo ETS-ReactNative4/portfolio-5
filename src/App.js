@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import './reset.css';
 import './App.css';
+// import './home.css'
 import routes from './routes'
 import {Link} from 'react-router-dom'
+import Header from './components/Header/Header'
 
 import SimpleSlider from './components/Slider/Slider'
 
@@ -12,21 +14,9 @@ class App extends Component {
     return (
       <div className="App">
 
-        <div id="header">
 
-          <div id="header-left">
-            <Link to="/"><p>Russell Memory</p></Link>
-          </div>
 
-          <div id="header-right">
-            <div id="header-home"><Link to="/">Home</Link></div>
-            <div id="header-portfolio"><Link to="/portfolio">Portfolio</Link></div>
-            <div id="header-about"><Link to="/about">About Me</Link></div>
-          </div>
-
-        </div>
-
-        
+        <Header />
        
         
           {routes}

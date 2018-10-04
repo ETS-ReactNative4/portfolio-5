@@ -1,7 +1,8 @@
+
 #header{
     border: solid black 1px;
     color: #333333;
-    height: 80px;
+    height: 70px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -11,7 +12,9 @@
     box-sizing: border-box;
     text-decoration: none;
   
-    /* display: fixed; */
+    /* position: fixed; */
+    background-color: white;
+    /* margin-bottom: 50px; */
   }
   
   #header-left{
