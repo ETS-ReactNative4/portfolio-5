@@ -9,9 +9,11 @@ export default function Portfolio(props){
                 <p>Portfolio</p>
             </div>
 
-            <p>start</p>
+            
+            <div id="slider">
                 <SimpleSlider />
-            <p>end</p>  
+            </div>
+            
 
 
         </div>

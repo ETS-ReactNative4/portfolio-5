@@ -15,6 +15,10 @@ import postman from './Postman.png'
 import react from './React.png'
 import redux from './Redux.png'
 import restful from './RESTful.png'
+import cypress from './Cypress.png'
+import endpoint from './endpoint.png'
+
+
 
 export default function Home(props){
     return(
@@ -37,44 +41,123 @@ export default function Home(props){
 
           <div id="skills-body">
 
-              
+          {/* left */}
+          <div className="skills-column">
+            <div className="skills-logo">
+              <img src={front} alt=""/>
+            </div>
+            <div className="skills-type">
+              <p>Front-End Technologies</p>
+            </div>
 
-              <div id="skills-left">
+            <div className="skills-logos">
+              <div className="skills-logos-top">
+                <div className="block">
+                    <img src={css}/>
+                    <p>CSS</p>
+                  </div>
+                  <div className="block">
+                    <img src={js}/>
+                    <p>JavaScript</p>
+                  </div>
+                  <div className="block">
+                    <img src={react}/>
+                    <p>React</p>
+                  </div>
 
-                <div id="skills-left-pic">
-                  <img id="front" src={front}/>
-                </div>
-
-                <p>Front-End Technologies</p>
-                <div id="front-tech">My front-end skillset includes HTML, CSS, JavaScript, React and Redux. I have experience with Angular as well. </div>
-
-                <div id="front-end-pics">
-                  <img src={css}/>
-                  <img src={js}/>
-                  <img src={react}/>
-                  <img src={redux}/>
-                  <img src={html}/>
-                  <img src={git}/>
-                </div>
               </div>
+              <div className="skills-logos-bottom">
+                  <div className="block">
+                    <img src={redux}/>
+                    <p>Redux</p>
+                  </div>
 
-              <div id="skills-right">
-                <div id="skills-right-pic">
-                  <img id="back" src={back}/>
-                </div>
+                  <div className="block">
+                    <img src={html}/>
+                    <p>HTML</p>
+                  </div>
 
-                <p>Back-End Technologies</p>
-                <div id="back-tech">For the backend I use NodeJS, Express, and PostgreSQL. </div>
+                  
 
-                <div id="back-end-pics">
-                  <img src={express}/>
-                  <img src={jest}/>
-                  <img src={node}/>
-                  <img src={postgres}/>
-                  <img src={postman}/>
-                  <img src={restful}/>
-                </div>
               </div>
+            </div>
+
+          </div>
+
+            {/* middle */}
+             <div className="skills-column middle">
+            <div className="skills-logo">
+              <img src={back} alt=""/>
+            </div>
+            <div className="skills-type">
+              <p>Back-End Technologies</p>
+            </div>
+
+            <div className="skills-logos">
+              <div className="skills-logos-top">
+              <div className="block">
+                    <img src={node}/>
+                    <p>NodeJS</p>
+                  </div>
+                  <div className="block">
+                    <img src={express}/>
+                    <p>Express</p>
+                  </div>
+                  <div className="block">
+                    <img src={postgres}/>
+                    <p>Postgres</p>
+                  </div>
+
+              </div>
+              <div className="skills-logos-bottom">
+                  <div className="block">
+                    <img src={restful}/>
+                    <p>Rest</p>
+                  </div>
+
+                  <div className="block">
+                    <img src={git}/>
+                    <p>Git</p>
+                  </div>
+              </div>
+            </div>
+
+          </div>
+
+            {/* right */}
+             <div className="skills-column right">
+            <div className="skills-logo">
+              <img src={endpoint} alt=""/>
+            </div>
+            <div className="skills-type">
+              <p>Unit & Endpoint Testing</p>
+            </div>
+
+            <div className="skills-logos">
+              <div className="skills-logos-top">
+                  <div className="block">
+                    <img src={postman}/>
+                    <p>Postman</p>
+                  </div>
+                  <div className="block">
+                    <img src={jest}/>
+                    <p>Jest</p>
+                  </div>
+
+                  <div className="block">
+                    <img src={cypress}/>
+                    <p>Cypress</p>
+                  </div>
+                  
+
+              </div>
+              <div className="skills-logos-bottom">
+                  
+
+              </div>
+            </div>
+
+          </div>
 
             </div>
 
@@ -105,12 +188,17 @@ export default function Home(props){
             </div>
           </div>
 
-          <footer>
+          {/* <footer>
             <div id="footer-container">
-              <button>Linkedin</button>
-              <button>Github</button>
+            <form action="https://www.linkedin.com/in/russellmemory/">
+              <button><img src={linkedin}/></button>
+            </form>
+
+            <form action="https://github.com/rgmemory">
+              <button><img src={github}/></button>
+            </form>
             </div>
-          </footer>
+          </footer> */}
 
 
 
