@@ -1,0 +1,48 @@
+footer{
+    background-color: white;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans",Arial,sans-serif;
+  }
+
+  #footer-container{
+      /* border: solid red 1px; */
+      width: 800px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+  }
+
+  #left-container{
+    font-size: 39px;
+    font-weight: bold;
+  }
+  
+  #right-container{
+    
+    /* border: solid black 1px; */
+    height: 90px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #footer-container button{
+    /* border: solid black 2px; */
+    height: 60px;
+    width: 130px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  
+  #footer-container button img{
+    height: auto;
+    width: auto;
+    max-height: 80px;
+    max-width: 120px;
+  }

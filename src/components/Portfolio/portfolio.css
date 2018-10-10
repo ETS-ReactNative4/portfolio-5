@@ -1,5 +1,5 @@
 .title{
-    border: solid black 1px;
+    /* border: solid black 1px; */
     height: 140px;
     width: 100%;
     background-color: #FC5858;
@@ -12,8 +12,32 @@
 
 }
 
-#slider{
+#portfolio-main{
+    /* margin-top: 29px; */
+    /* border: solid black 1px; */
+    height: 1300px;
+    width: 100%;
+    /* margin: auto; */
+    padding: 25px;
+    box-sizing: border-box;
+    /* background-color: #3C434C; */
+    background-color: #F3F5F9;
+}
+
+#portfolio-main iframe{
+    /* border: solid red 1px; */
+    margin-bottom: 20px;
+    height: 600px;
+    width: 100%;
+    margin: auto;
+}
+
+#bottom-video{
+    margin-top: 25px;
+}
+
+/* #slider{
     border: solid black 1px;
     height: 400px;
     width: 100%;
-}
+} */

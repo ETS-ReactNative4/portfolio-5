@@ -9,10 +9,27 @@ export default function Portfolio(props){
                 <p>Portfolio</p>
             </div>
 
+            <div id="portfolio-main">
+                
+                <div >
+                    {/* group */}
+                    <iframe  src="https://www.youtube.com/embed/wvbdKwsP6nk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                
+                <div id="bottom-video">
+                    {/* personal */}
+                    <iframe  src="https://www.youtube.com/embed/vPa3lJnDk6k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+
+
+              
             
-            <div id="slider">
-                <SimpleSlider />
             </div>
+
+            
+            {/* <div id="slider">
+                <SimpleSlider />
+            </div> */}
             
 
 

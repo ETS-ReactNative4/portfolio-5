@@ -17,10 +17,13 @@ export default class SimpleSlider extends Component {
       <div>
         <Slider {...settings}>
           <div>
-            <img src={example}/>
+            {/* <img src={example}/> */}
+            <iframe width="420" height="315"
+              src="https://youtu.be/wvbdKwsP6nk">
+            </iframe>
           </div>
           <div>
-            <img src={example}/>
+            {/* <img src={example}/> */}
 
           </div>
           

@@ -17,6 +17,8 @@ import redux from './Redux.png'
 import restful from './RESTful.png'
 import cypress from './Cypress.png'
 import endpoint from './endpoint.png'
+import personal from './personal.png'
+import group from './group.png'
 
 
 
@@ -181,27 +183,15 @@ export default function Home(props){
 
 
                 <div id="portfolio-right">
-                  <p>Portoflio pictures</p>
+                  <img src={personal} alt=""/>
+                  <img src={group} alt=""/>
                 </div>
 
             
             </div>
           </div>
 
-          {/* <footer>
-            <div id="footer-container">
-            <form action="https://www.linkedin.com/in/russellmemory/">
-              <button><img src={linkedin}/></button>
-            </form>
-
-            <form action="https://github.com/rgmemory">
-              <button><img src={github}/></button>
-            </form>
-            </div>
-          </footer> */}
-
-
-
+    
 
         </div>
     )
