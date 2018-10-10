@@ -14,6 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <link rel="shortcut icon" type="image/png" href="./favicon.png"></link>
 
 
 
