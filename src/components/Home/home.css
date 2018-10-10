@@ -49,6 +49,7 @@
   font-size: 20px;
   margin-top: 40px;
   border: none;
+  cursor: pointer;
 }
 
 
@@ -293,6 +294,7 @@
 #portfolio-button button:hover{
   background-color: #0070BB;
   color: white;
+  cursor: pointer;
 }
 
 

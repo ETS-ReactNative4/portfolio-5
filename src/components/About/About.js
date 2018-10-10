@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import './about.css'
-import russell from './russell.JPG'
+import russell from './russ.jpg'
 
 export default function About(props){
     return(

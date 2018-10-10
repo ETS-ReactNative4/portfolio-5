@@ -173,7 +173,7 @@ export default function Home(props){
                     Portfolio
                   </div>
                   <div id="portfolio-body">
-                    <p>I enjoy making ecommerce applications, but I enjoy collaborating on 
+                    <p>I enjoy collaborating on 
                     almost any kind of project. You’ll find a little bit of everything in my portfolio.</p>
                   </div>
                   <div id="portfolio-button">

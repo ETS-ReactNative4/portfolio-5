@@ -39,6 +39,10 @@ footer{
     border: none;
     outline: none;
   }
+
+  #footer-container button:hover{
+    cursor: pointer;
+  }
   
   #footer-container button img{
     height: auto;

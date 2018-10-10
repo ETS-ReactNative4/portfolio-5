@@ -35,6 +35,7 @@
 
   #header-left button:hover{
     color: #FC5858;
+    cursor: pointer;
   }
   
   #header-right{
@@ -61,5 +62,6 @@
     border: none;
     outline: 0;
     color: #FC5858;
+    cursor: pointer;
     /* border-bottom: 2px solid #FC5858; */
   }
