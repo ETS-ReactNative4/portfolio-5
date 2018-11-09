@@ -8,7 +8,7 @@ export default function Footer(props){
         <footer>
             <div id="footer-container">
 
-            <div id="left-container">Let's Connect</div>
+            <div id="left-container" >Let's Connect</div>
             <div id="right-container">
               <form action="https://www.linkedin.com/in/russellmemory/">
                 <button><img src={linkedin}/></button>

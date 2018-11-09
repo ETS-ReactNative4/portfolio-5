@@ -1,67 +1,93 @@
+#header {
+  color: #333333;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-right: 60px;
+  align-items: center;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: white;
+  font-family: "Open Sans", Arial, sans-serif;
+  text-decoration: none;
+}
 
-#header{
-    /* border: solid black 1px; */
-    color: #333333;
-    height: 70px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 80px;
-    padding-right: 80px;
-    align-items: center;
-    box-sizing: border-box;
-    text-decoration: none;
-    /* position: fixed; */
-    background-color: white;
-    font-family: "Open Sans",Arial,sans-serif;
-    text-decoration: none;
-  }
+#header-left {
+  height: 100%;
+  width: 250px;
+  border: solid red 1px;
+  display: flex;
+  align-items: center;
   
+
+}
+
+#header-left button {
+  font-size: 25px;
+  background-color: transparent;
+  border: none;
+  outline: 0;
+  font-weight: 300;
+  transition: color 0.3s;
+  border: solid black 1px;
+}
+
+#header-left button:hover {
+  color: #fc5858;
+  cursor: pointer;
+}
+
+#header-right {
+  height: 100%;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: solid black 1px;
+}
+
+#header-right button {
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  outline: 0;
+  transition: color 0.4s;
+}
+
+#header-right button:hover {
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  outline: 0;
+  color: #fc5858;
+  cursor: pointer;
+}
+
+@media (max-width: 650px) {
+  .cell{
+    display: none;
+  }
+
+  #header{
+    /* background-color: yellow; */
+    /* float: left; */
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+
   #header-left{
-    /* border: solid black 4px; */
-    height: 100%;
-    display: flex;
-    align-items: center;
-  }
-
-  #header-left button{
-    font-size: 25px;
-    background-color: transparent;
-    border: none;
-    outline: 0;
-    font-weight: 300;
-    transition: color .3s;
-  }
-
-  #header-left button:hover{
-    color: #FC5858;
-    cursor: pointer;
-  }
-  
-  #header-right{
-    /* border: solid black 1px; */
-    height: 100%;
-    width: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  #header-right button{
-    font-size: 16px;
-    background-color: transparent;
-    border: none;
-    outline: 0;
-    transition: color .4s;
+    width: 400px;
     
   }
 
-  #header-right button:hover{
-    font-size: 16px;
-    background-color: transparent;
-    border: none;
-    outline: 0;
-    color: #FC5858;
-    cursor: pointer;
-    /* border-bottom: 2px solid #FC5858; */
+  #header-left button{
+    font-size: 6vw;
   }
+
+  #header-right{
+    width: 40px;
+
+  }
+}
