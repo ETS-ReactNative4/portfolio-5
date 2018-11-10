@@ -10,24 +10,19 @@ export default function Header(props){
     return(
         <div id="header">
 
-            {/* <div class="header">
-                <div class="header-left">
-                    <Link to="/"><button>RUSSELL MEMORY</button></Link>
-                </div>
-            </div> */}
-
             <div id="header-left">
                 <Link to="/"><button>RUSSELL MEMORY</button></Link>
             </div>
 
-            {/* <div id="header"></div> */}
+            <div id="header-right">
+                <label for="toggle">&#9776;</label>
+                <input type="checkbox" id="toggle"/>
 
-            
-
-            <div class="cell" id="header-right">
-                <div class="cell" id="header-home"><Link to="/"><button>Home</button></Link></div>
-                <div class="cell" id="header-portfolio"><Link to="/portfolio"><button>Portfolio</button></Link></div>
-                <div class="cell" id="header-about"><Link to="/about"><button>About Me</button></Link></div>
+                <div class="menu">
+                    <div id="header-home"><Link to="/"><button>Home</button></Link></div>
+                    <div id="header-portfolio"><Link to="/portfolio"><button>Portfolio</button></Link></div>
+                    <div id="header-about"><Link to="/about"><button>About Me</button></Link></div>
+                </div>
             </div>
 
         </div>

@@ -65,6 +65,18 @@
   cursor: pointer;
 }
 
+label{
+  display: none;
+}
+
+#toggle{
+  display: none;
+}
+
+#toggle:checked + .menu{
+  display: block;
+}
+
 @media (max-width: 650px) {
   .cell{
     display: none;
@@ -87,7 +99,40 @@
   }
 
   #header-right{
-    width: 40px;
+    /* width: 40px; */
 
+  }
+
+  .menu{
+    width: 40px;
+  }
+}
+
+@media(max-width : 700px){
+  label{
+    border: solid black 1px;
+    display: block;
+    margin-top: 35px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  #header-right{
+    border: solid black 1px;
+    flex-direction: column;
+  }
+
+  .menu{
+    border: solid black 1px;
+    margin-top: 20px;
+    background-color: dodgerblue;
+    width: 300px;
+    text-align: center;
+  }
+
+  .menu div{
+    border: solid black 1px;
+    padding: 20px;
+    border-bottom: 1px solid #EAEAEB;
   }
 }
