@@ -1,6 +1,6 @@
 footer{
     background-color: white;
-    height: 11vh;
+    /* height: 11vh; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,7 +74,7 @@ footer{
 
     #left-container{
       margin-top: 16px;
-
+      margin-bottom: 25px;
       font-size: 3vw;
     }
 
@@ -91,11 +91,19 @@ footer{
       
 
       font-size: 4.7vw;
+      margin-bottom: 35px;
+      text-align: center;
     }
 
     #right-container{
       width: 70vw;
     }
+
+    #footer-container{
+      height: 15vh;
+    }
+
+    
   }
 
   /* @media(max-width: 1000px){

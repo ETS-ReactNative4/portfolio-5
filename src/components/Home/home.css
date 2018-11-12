@@ -273,7 +273,7 @@
   line-height: 1.7em;
   font-size: 15px;
   font-weight: bold;
-  /* text-align: center; */
+  
 }
 
 
@@ -322,6 +322,10 @@
     display: flex;
     align-items: center;
   }
+
+  #portfolio-body p{
+    text-align: center;
+  }
 }
 
 @media(max-width: 780px){
@@ -335,10 +339,11 @@
   
   
   .skills-column{
-    width: 70vw;
-    margin-bottom: 17px;
+    width: 80vw;
+    /* margin-bottom: 17px; */
     height: 500px;
     /* margin: auto; */
+    border-radius: 0px;
   }
   #skills-body{
     flex-direction: column;
@@ -365,6 +370,13 @@
 
   }
 
+  .skills-column{
+    width: 100vw;
+    
+  }
+
+
+
 }
 
 @media(max-width: 430px){
@@ -380,7 +392,7 @@
 
   .skills-column{
     width: 100vw;
-    margin-bottom: 5px;
+    border-radius: 0px;
   }
 
   #skills-title{
@@ -388,7 +400,7 @@
   }
 
   #skills{
-    margin-bottom: 15px;
+    margin-bottom: 0px;
   }
 
   #portfolio-right img{
