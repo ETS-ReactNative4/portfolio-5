@@ -1,7 +1,5 @@
 
 #about-body{
-    /* border: solid green 1px; */
-    /* height: 650px; */
     width: 100%;
     display: flex;
     box-shadow: 10px 15px;
@@ -9,12 +7,10 @@
 }
 
 #about-left{
-    /* border: solid black 1px; */
     height: 100%;
     width: 50%;
 }
 #about-right{
-    /* border: solid black 1px; */
     height: 100%;
     width: 50%;
     padding: 30px 50px;
@@ -29,7 +25,6 @@
 }
 
 #about-title{
-    /* border: solid black 1px; */
     margin-bottom: 40px;
     font-size: 40px;
     font-weight: bold;
@@ -39,7 +34,6 @@
 }
 
 #about-paragraph{
-    /* border: solid black 1px; */
     padding: 0px 10px;
     font-size: 17px;
     line-height: 1.7em;
@@ -48,6 +42,8 @@
 
 #about-paragraph p{
     margin-top: 15px;
+    font-family: "Open Sans",Arial,sans-serif;
+
 }
 
 @media(max-width: 1000px){
@@ -78,9 +74,5 @@
         width: 85vw;
         padding: 0px 0px 30px 0px;
         
-    }
-
-    #about-body{
-        /* margin-bottom: 20px; */
     }
 }
