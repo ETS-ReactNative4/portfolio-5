@@ -37,7 +37,7 @@ export default function Portfolio(props) {
                   This app is used for managing the drivers of a trucking
                   company. It gives a breakdown of the company finances, lets
                   you keep a to-do list, lets you keep an eye on weather
-                  conditions, an interface to dispatch a driver, and also allows
+                  conditions, gives you an interface to dispatch a driver, and also allows
                   the user to pay drivers.
                 </p>
               </div>
