@@ -46,6 +46,9 @@
 
 }
 
+
+
+
 @media(max-width: 1000px){
     #about-body{
         flex-direction: column;
