@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./portfolio.css";
-import SimpleSlider from "../Slider/Slider";
 import trucksHome from "../../images/trucksHome.png";
 import nikeClone from "../../images/nikeClone.png";
 import typeTrainer from "../Home/group.png";
@@ -129,12 +128,9 @@ export default function Portfolio(props) {
           </div>
         </div>
 
-        {/* nikeclone */}
       </div>
 
-      {/* <div id="slider">
-                <SimpleSlider />
-            </div> */}
+      
     </div>
   );
 }
