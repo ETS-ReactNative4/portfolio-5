@@ -152,5 +152,11 @@
     padding: 0;
   }
 
+  #header-right button{
+    font-size: 13px;
+    /* padding: 0;
+    margin: 0; */
+  }
+
 
 }

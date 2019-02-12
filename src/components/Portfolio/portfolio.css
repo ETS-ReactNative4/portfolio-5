@@ -108,3 +108,49 @@
   color: #333333;
   width: 90%;
 }
+
+@media(max-width: 1200px){
+  .portfolio-technologies{
+    display: none;
+  }
+}
+
+
+@media(max-width: 1100px){
+  .portfolio-description{
+    display: none;
+  }
+
+  .portfolio-piece-body {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .portfolio-screenshot img{
+    max-width: 800px;
+  }
+}
+
+@media(max-width: 900px){
+  
+
+  .portfolio-screenshot img{
+    max-width: 90vw;
+  }
+
+  
+}
+
+@media(max-width: 400px){
+  
+
+  .portfolio-name{
+    font-size: 5vw;
+  }
+
+  
+}
+
+
