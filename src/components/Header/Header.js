@@ -38,7 +38,7 @@ export default class Header extends Component{
             <div id="header">
     
                 <div id="header-left">
-                    <Link to="/"><button>RUSSELL <span>MEMORY</span></button></Link>
+                    <Link to="/"><button>RUSS<span className="ell">ELL</span> <span className="memory">MEMORY</span></button></Link>
                 </div>
     
                 <div id="header-right">

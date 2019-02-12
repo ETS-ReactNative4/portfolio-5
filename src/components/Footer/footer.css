@@ -6,10 +6,13 @@ footer{
     justify-content: center;
     font-family: "Open Sans",Arial,sans-serif;
     width: 100vw;
+    border: solid black 1px;
+    height: 14vh;
   }
 
   #footer-container{
-    /* border: solid black 2px; */
+    border: solid black 1px;
+      height: 50%;
 
       width: 80vw;
       display: flex;
@@ -18,16 +21,16 @@ footer{
   }
 
   #left-container{
-    /* border: solid black 2px; */
+    /* border: solid green 1px; */
 
     font-size: 39px;
     font-weight: bold;
   }
   
   #right-container{
-    /* border: solid black 2px; */
+    border: solid red 1px;
 
-    height: 100%;
+    /* height: 100%; */
     width: 15vw;
     display: flex;
     align-items: center;
@@ -52,6 +55,7 @@ footer{
     width: auto;
     max-height: 80px;
     max-width: 120px;
+    /* border: solid purple 1px; */
   }
 
   @media(max-width: 1100px){
@@ -62,18 +66,20 @@ footer{
 
     #footer-container{
       flex-direction: column;
-      height: 13vh;
+      height: 95%;
     }
 
     #right-container{
       width: 39vw;
-      height: 20vh;
-      width: 40vw;
+      padding: 0;
+      margin: 0
+      /* height: 20vh; */
+      /* width: 40vw; */
 
     }
 
     #left-container{
-      margin-top: 16px;
+      /* margin-top: 16px; */
       margin-bottom: 25px;
       font-size: 3vw;
     }
@@ -86,7 +92,7 @@ footer{
     }
   }
 
-  @media(max-width: 580px){
+  @media(max-width: 650px){
     #left-container{
       
 
@@ -96,14 +102,57 @@ footer{
     }
 
     #right-container{
-      width: 70vw;
+      width: 60vw;
+      justify-content: space-between;
     }
 
     #footer-container{
-      height: 15vh;
+      width: 100vw;
+    }
+
+    #footer-container button{
+   
+      margin: 0;
+      padding: 0;
+    }
+    #footer-container button img{
+      height: auto;
+      width: auto;
+      max-height: 40px;
+      max-width: 70px;
+      margin: 0;
+      padding: 0;
     }
 
     
+  }
+
+  @media(max-width: 400px){
+    footer{
+      height: 10vh;
+    }
+    #right-container{
+      width: 90vw;
+      justify-content: space-around;
+    }
+  }
+
+  @media(max-width: 350px){
+    #right-container{
+      width: 100vw;
+      justify-content: space-between;
+    }
+  }
+
+  @media(max-width: 290px){
+    #footer-container button img{
+      height: auto;
+      width: auto;
+      max-height: 30px;
+      max-width: 60px;
+      margin: 0;
+      padding: 0;
+    }
   }
 
   /* @media(max-width: 1000px){

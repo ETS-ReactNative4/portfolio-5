@@ -1,25 +1,27 @@
+/* 258 px wide */
+
 #header {
   color: #333333;
   height: 70px;
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: space-around;
-  /* padding-left: 60px;
-  padding-right: 60px; */
+
   align-items: center;
   box-sizing: border-box;
   text-decoration: none;
   background-color: white;
   font-family: "Open Sans", Arial, sans-serif;
   text-decoration: none;
+  /* border: solid black 1px; */
 }
 
 #header-left {
   height: 100%;
   width: 35vw;
-  /* border: solid red 1px; */
   display: flex;
   align-items: center;
+  /* border: solid black 1px; */
 }
 
 #header-left button {
@@ -29,6 +31,9 @@
   outline: 0;
   font-weight: 300;
   transition: color 0.3s;
+  margin: 0;
+  /* padding: 0; */
+  
   /* border: solid black 1px; */
 }
 
@@ -84,7 +89,7 @@
 
 }
 
-@media(max-width: 650px){
+@media(max-width: 700px){
   #header-left{
     width: 45vw;
   }
@@ -102,7 +107,11 @@
   #header-left{
     width: 25vw;
   }
-  #header-left span{
+  /* #header-left span{
+    width: 45vw;
+    display: none;
+  } */
+  .memory{
     width: 45vw;
     display: none;
   }
@@ -116,70 +125,32 @@
 
 
 }
-/* 
-label{
-  display: none;
-}
 
-@media(max-width : 690px){
-  label{
-    display: block;
-    font-size: 35px;
-    cursor: pointer;
-  }
-
-  #header-right{
-    display: flex;
-  }
-
-  .menu div{
-    border: solid black 1px;
-    padding: 20px;
-    border-bottom: 1px solid #EAEAEB;
-  }
-}
-
-@media (max-width: 650px) {
-  .cell{
+@media(max-width: 350px){
+  .ell{
     display: none;
-  }
-  
-  #header{
-    padding-left: 4vw;
-    padding-right: 4vw;
   }
 
   #header-left{
-    width: 400px;
+    width: 20vw;
+    font-size: 1vw;
+    justify-content: left;
+    padding: 0px;
+    margin: 0;
+    /* align-items: flex-start; */
   }
-
   #header-left button{
-    font-size: 5vw;
+    padding: 0;
+    padding-left: 4px;
   }
 
-  label{
-    font-size: 28px;
+  #header-right{
+    width: 70vw;
+  }
+  #header-right button{
+    /* width: 70vw; */
+    padding: 0;
   }
 
-  .menu{
-    border: solid black 1px;
-    margin-top: 278px;
-    background-color: #FFFFFF;
-    width: 30vw;
-    text-align: center;
-    z-index: 1;
-    width: 50vw;
-  }
+
 }
-
-
-@media(max-width: 450px){
-  .menu{
-    width: 39vw;
-    margin-top: 278px;
-  }
-
-  #header-left button{
-    font-size: 6vw;
-  }
-} */
