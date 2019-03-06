@@ -29,7 +29,7 @@
 
 .portfolio-piece {
   padding-top: 20px;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 30px;
   width: 85%;
   box-shadow: 5px 5px 54px -5.5px #888888;
@@ -52,6 +52,21 @@
   justify-content: space-around;
   align-items: center;
   letter-spacing: 1px;
+}
+
+.portfolio-github{
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: solid black 1px; */
+  /* float: left; */
+}
+
+.portfolio-github a{
+  margin-top: 18px;
 }
 
 .portfolio-name {

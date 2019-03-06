@@ -1,0 +1,45 @@
+.contact{
+    background-color: #1072B9;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contact-inner{
+    /* background-color: white; */
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 200px;
+    /* border: solid #ccc 1px; */
+    /* box-shadow: 5px 5px 54px -5.5px #888888; */
+}
+
+.contact-item{
+    font-size: 2vw;
+    font-family: "Open Sans", Arial, sans-serif;
+    color: white;
+}
+/* .contact-linkedin{
+    font-size: 2vw;
+    font-family: "Open Sans", Arial, sans-serif;
+    
+    color:white;
+}
+.contact-github{
+    font-size: 2vw;
+    font-family: "Open Sans", Arial, sans-serif;
+    
+    color: white;
+} */
+
+@media(max-width: 500px){
+    .contact-item{
+        font-size: 4vw;
+    }
+}
