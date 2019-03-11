@@ -130,6 +130,19 @@
   .portfolio-technologies{
     display: none;
   }
+
+  .portfolio-description{
+    display: none;
+  }
+
+  .portfolio-piece-body{
+    flex-direction: column;
+  }
+
+  .portfolio-github{
+    margin-bottom: 15px;
+  }
+
 }
 
 
@@ -146,15 +159,34 @@
   }
 
   .portfolio-screenshot img{
-    max-width: 800px;
+    /* max-width: 800px; */
   }
+
+  
+
+  
+
+  
 }
 
-@media(max-width: 900px){
+@media(max-width: 950px){
   
 
   .portfolio-screenshot img{
-    max-width: 90vw;
+    max-width: 80vw;
+  }
+
+  
+}
+
+@media(max-width: 600px){
+  .portfolio-piece {
+    width: 100%;
+    box-shadow: 0px 7px 15px -5.5px #888888
+  }
+
+  .portfolio-screenshot img{
+    max-width: 95vw;
   }
 
   
@@ -166,6 +198,10 @@
   .portfolio-name{
     font-size: 5vw;
   }
+
+  /* .portfolio-screenshot img{
+    max-width: 80vw;
+  } */
 
   
 }

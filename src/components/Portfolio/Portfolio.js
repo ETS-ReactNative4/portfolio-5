@@ -88,8 +88,6 @@ export default function Portfolio(props) {
                 >
                   <img src={tricalc} alt="" />
                 </a>
-
-                
               </div>
             </div>
 
@@ -197,6 +195,65 @@ export default function Portfolio(props) {
           </div>
         </div>
 
+        {/* typing tutor */}
+        <div className="portfolio-piece">
+          <div className="portfolio-name">
+            <p>Typing Tutor</p>
+          </div>
+          <div className="portfolio-piece-body">
+            <div className="portfolio-piece-left">
+              <div className="portfolio-screenshot">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.youtube.com/embed/wvbdKwsP6nk"
+                >
+                  <img src={typeTrainer} alt="" />
+                </a>
+              </div>
+            </div>
+
+            <div className="portfilio-piece-right">
+              <div className="portfolio-github">
+                <a
+                  style={{ textDecoration: "none", color: "inherit" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/rgmemory/type-trainer"
+                >
+                  github.com/rgmemory/type-trainer
+                </a>
+
+                <a
+                  style={{ textDecoration: "none", color: "inherit" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://typing-trainer.com/"
+                >
+                  typing-trainer.com
+                </a>
+              </div>
+              <div className="portfolio-description">
+                <p>
+                  This App allows the user to test how fast they can type.
+                  Specifically it tests how fast they can type code. It will
+                  present HTML, JavaScript, etc for the typing challenge and it
+                  keeps track of the accuracy and words per minute. After the
+                  test is complete it displays charts showing how the user fared
+                  as the test progressed. It allows the user to login and save
+                  their results for future comparison.
+                </p>
+              </div>
+
+              <div className="portfolio-technologies">
+                <p>
+                  This website uses OAuth, React, Redux, Node, Express, and
+                  PostgreSQL
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
         {/* nikeclone */}
         <div className="portfolio-piece">
           <div className="portfolio-name">
@@ -247,66 +304,6 @@ export default function Portfolio(props) {
               <div className="portfolio-technologies">
                 <p>
                   This website uses Auth 0, React, Redux, Node, Express, and
-                  PostgreSQL
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* typing tutor */}
-        <div className="portfolio-piece">
-          <div className="portfolio-name">
-            <p>Typing Tutor</p>
-          </div>
-          <div className="portfolio-piece-body">
-            <div className="portfolio-piece-left">
-              <div className="portfolio-screenshot">
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://www.youtube.com/embed/wvbdKwsP6nk"
-                >
-                  <img src={typeTrainer} alt="" />
-                </a>
-              </div>
-            </div>
-
-            <div className="portfilio-piece-right">
-              <div className="portfolio-github">
-                <a
-                  style={{ textDecoration: "none", color: "inherit" }}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/rgmemory/type-trainer"
-                >
-                  github.com/rgmemory/type-trainer
-                </a>
-
-                {/* <a
-                  style={{ textDecoration: "none", color: "inherit" }}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://trucks.russellmemory.com"
-                >
-                  trucks.russellmemory.com
-                </a> */}
-              </div>
-              <div className="portfolio-description">
-                <p>
-                  This App allows the user to test how fast they can type.
-                  Specifically it tests how fast they can type code. It will
-                  present HTML, JavaScript, etc for the typing challenge and it
-                  keeps track of the accuracy and words per minute. After the
-                  test is complete it displays charts showing how the user fared
-                  as the test progressed. It allows the user to login and save
-                  their results for future comparison.
-                </p>
-              </div>
-
-              <div className="portfolio-technologies">
-                <p>
-                  This website uses OAuth, React, Redux, Node, Express, and
                   PostgreSQL
                 </p>
               </div>
