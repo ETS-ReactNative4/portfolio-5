@@ -38,6 +38,14 @@ export default function Portfolio(props) {
                   style={{ textDecoration: "none", color: "inherit" }}
                   target="_blank"
                   rel="noopener noreferrer"
+                  href="https://youtu.be/R9xPgGcgmmQ"
+                >
+                  Youtube Walkthrough Video
+                </a>
+                <a
+                  style={{ textDecoration: "none", color: "inherit" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   href="https://github.com/rgmemory/trucks"
                 >
                   github.com/rgmemory/trucks
@@ -81,6 +89,8 @@ export default function Portfolio(props) {
           <div className="portfolio-piece-body">
             <div className="portfolio-piece-left">
               <div className="portfolio-screenshot">
+                
+                
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -93,6 +103,16 @@ export default function Portfolio(props) {
 
             <div className="portfilio-piece-right">
               <div className="portfolio-github">
+                
+                
+                <a
+                  style={{ textDecoration: "none", color: "inherit" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://youtu.be/0zIJnAbP6cs"
+                >
+                  Youtube Walkthrough Video
+                </a>
                 <a
                   style={{ textDecoration: "none", color: "inherit" }}
                   target="_blank"
@@ -156,6 +176,14 @@ export default function Portfolio(props) {
                   style={{ textDecoration: "none", color: "inherit" }}
                   target="_blank"
                   rel="noopener noreferrer"
+                  href="https://youtu.be/W8NSH0W8XBo"
+                >
+                  Youtube Walkthrough Video
+                </a>
+                <a
+                  style={{ textDecoration: "none", color: "inherit" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   href="https://github.com/rgmemory/houser"
                 >
                   github.com/rgmemory/houser
@@ -215,6 +243,14 @@ export default function Portfolio(props) {
 
             <div className="portfilio-piece-right">
               <div className="portfolio-github">
+              <a
+                  style={{ textDecoration: "none", color: "inherit" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://youtu.be/wvbdKwsP6nk"
+                >
+                  Youtube Walkthrough Video
+                </a>
                 <a
                   style={{ textDecoration: "none", color: "inherit" }}
                   target="_blank"
@@ -223,6 +259,7 @@ export default function Portfolio(props) {
                 >
                   github.com/rgmemory/type-trainer
                 </a>
+                
 
                 <a
                   style={{ textDecoration: "none", color: "inherit" }}
@@ -278,19 +315,20 @@ export default function Portfolio(props) {
                   style={{ textDecoration: "none", color: "inherit" }}
                   target="_blank"
                   rel="noopener noreferrer"
+                  href="https://youtu.be/vPa3lJnDk6k"
+                >
+                  Youtube Walkthrough Video
+                </a>
+                <a
+                  style={{ textDecoration: "none", color: "inherit" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   href="https://github.com/rgmemory/pp2"
                 >
                   github.com/rgmemory/pp2
                 </a>
 
-                {/* <a
-                  style={{ textDecoration: "none", color: "inherit" }}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://trucks.russellmemory.com"
-                >
-                  trucks.russellmemory.com
-                </a> */}
+                
               </div>
               <div className="portfolio-description">
                 <p>

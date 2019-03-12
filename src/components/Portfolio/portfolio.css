@@ -55,18 +55,21 @@
 }
 
 .portfolio-github{
+  box-sizing: border-box;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* border: solid black 1px; */
-  /* float: left; */
+  color: #3B434C;
+  
 }
+
 
 .portfolio-github a{
   margin-top: 18px;
+  font-size: 18px;
 }
 
 .portfolio-name {
