@@ -44,9 +44,9 @@ export default class Header extends Component{
                 <div id="header-right">
     
                     
-                            <div id="header-home"><Link to="/"><button>Home</button></Link></div>
                             <div id="header-portfolio"><Link to="/portfolio"><button>Portfolio</button></Link></div>
                             <div id="header-about"><Link to="/about"><button>About <span>Me</span></button></Link></div>
+                            <div id="header-home"><Link to="/contact"><button>Contact</button></Link></div>
                     
     
                     
