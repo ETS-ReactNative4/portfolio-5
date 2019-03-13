@@ -234,7 +234,7 @@ export default function Portfolio(props) {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://www.youtube.com/embed/wvbdKwsP6nk"
+                  href="https://typing-trainer.com/"
                 >
                   <img src={typeTrainer} alt="" />
                 </a>
